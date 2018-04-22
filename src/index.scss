@@ -1,0 +1,22 @@
+$enable-gradients: true;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+html,
+body,
+#app {
+  height: 100vh;
+}
+
+.btn-lg-rounded {
+  border-radius: 1.5rem;
+}
+
+.bg-gradient-day {
+  background: rgb(255, 85, 78);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 85, 78, 1) 0%,
+    rgba(255, 210, 2, 1) 100%
+  );
+}
