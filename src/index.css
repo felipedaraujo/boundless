@@ -6313,3 +6313,26 @@ body,
 .bg-gradient-day {
   background: #ff554e;
   background: linear-gradient(180deg, #ff554e 0%, #ffd202 100%); }
+
+.modal-dialog .modal-content {
+  border: 0;
+  border-radius: 0;
+  height: 100%; }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 100%; } }
+
+.btn-hangup {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1.75rem; }
+
+.video-thumbnail {
+  background-color: #fff;
+  width: 15vh;
+  height: 15vh;
+  border-radius: 7.5vh;
+  position: absolute;
+  right: 20px;
+  bottom: 20px; }
