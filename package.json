@@ -11,7 +11,8 @@
     "react-scripts": "1.1.4",
     "react-webcam": "^0.4.3",
     "reactstrap": "^5.0.0",
-    "recharts": "^1.0.0-beta.10"
+    "recharts": "^1.0.0-beta.10",
+    "recordrtc": "^5.4.6"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
