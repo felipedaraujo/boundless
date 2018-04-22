@@ -8,7 +8,7 @@ class Home extends Component {
   constructor(props) {
     super(props);
 
-    this.state = { isModalOpen: true };
+    this.state = { isModalOpen: false };
   }
 
   toggleModal() {

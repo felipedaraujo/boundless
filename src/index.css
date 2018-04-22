@@ -6330,9 +6330,9 @@ body,
 
 .video-thumbnail {
   background-color: #fff;
-  width: 15vh;
-  height: 15vh;
-  border-radius: 7.5vh;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   position: absolute;
   right: 20px;
   bottom: 20px; }
